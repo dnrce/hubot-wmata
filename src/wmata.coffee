@@ -1,10 +1,6 @@
 # Description:
 #   Get status information from WMATA
 #
-# Dependencies:
-#   node-geocoder
-#   fuzzy
-#
 # Configuration:
 #   HUBOT_WMATA_API_KEY
 #
@@ -18,7 +14,7 @@
 #
 # Author:
 #   stvnrlly
-#
+
 geocoder = require('node-geocoder').getGeocoder('google', 'http', {})
 fuzzy = require('fuzzy')
 
